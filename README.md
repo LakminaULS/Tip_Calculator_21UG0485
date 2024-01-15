@@ -22,7 +22,7 @@ The Tip Calculator is a simple and user-friendly Android app designed to help us
 
 1. Clone the repository to your local machine.
    
-https://github.com/yourusername/TipCalculator.git
+   https://github.com/yourusername/TipCalculator.git
    
 2. Open the project in Android Studio.
 
