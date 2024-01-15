@@ -1,0 +1,10 @@
+<resources>
+    <string-array name="currencies">
+        <item>LKR</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <!-- Add more currencies as needed -->
+    </string-array>
+    <string name="select_currency">Select Currency</string>
+</resources>

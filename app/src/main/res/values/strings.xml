@@ -1,0 +1,16 @@
+<resources>
+        <string name="app_name">Tip Calculator</string>
+        <string name="tip_result">Tip Amount: %.2f</string>
+        <string name="invalid_amount">Invalid amount. Please enter a valid number.</string>
+        <string name="tip_percentage_15">Tip Percentage: 15%</string>
+        <string name="calculate1">Calculate</string>
+        <string name="enter_bill_amount1">Enter bill amount</string>
+        <string name="made_by_lakmina">Made By Lakmina</string>
+        <string name="made_by_21ug0485">MADE BY 21UG0485</string>
+        <string name="total_amount">Total Bill Amount: %.2f %s</string>
+        <string name="total_bill_amount_0_00">Total Bill Amount: 0.00</string>
+        <string name="tip_percentage">Tip Percentage: 15%</string>
+        <string name="made_by_lakmina1">Made By Lakmina</string>
+        <string name="enter_bill_amount">Enter bill amount</string>
+        <string name="calculate">Calculate</string>
+</resources>

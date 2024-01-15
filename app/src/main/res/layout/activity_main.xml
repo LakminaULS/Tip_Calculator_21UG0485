@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextBillAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:autofillHints=""
+        android:hint="@string/enter_bill_amount"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <SeekBar
+        android:id="@+id/seekBarTipPercentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextBillAmount"
+        android:layout_marginTop="8dp"
+        android:max="30"
+        android:progress="15"
+        android:thumb="@drawable/ic_slider_thumb"/>
+
+    <TextView
+        android:id="@+id/textViewTipPercentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekBarTipPercentage"
+        android:text="@string/tip_percentage"
+        android:layout_marginTop="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerCurrency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTipPercentage"
+        android:layout_marginTop="8dp"
+        android:entries="@array/currencies"
+        android:minHeight="48dp"
+        android:prompt="@string/select_currency" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerCurrency"
+        android:layout_marginTop="16dp"
+        android:text="@string/calculate"
+        tools:ignore="VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/textViewTipResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCalculate"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewTotalAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTipResult"
+        android:layout_marginTop="16dp"
+        android:text="@string/total_bill_amount_0_00"/>
+
+    <TextView
+        android:id="@+id/textViewMadeBy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/made_by_lakmina1"
+        android:textSize="14sp"/>
+
+</RelativeLayout>
