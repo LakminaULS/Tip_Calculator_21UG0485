@@ -1,7 +1,3 @@
-Certainly! Below is a sample GitHub README description for your Android app. You can customize it further based on the specific details of your app:
-
----
-
 # Tip Calculator
 
 
