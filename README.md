@@ -45,5 +45,3 @@ The Tip Calculator is a simple and user-friendly Android app designed to help us
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
 
 ---
-
-Feel free to replace the placeholders with actual details relevant to your app. Additionally, you can include a "Download" section or provide a link to the APK file if you have a release version available for download.
